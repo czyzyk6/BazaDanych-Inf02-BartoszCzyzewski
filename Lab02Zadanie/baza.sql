@@ -40,6 +40,5 @@ INSERT INTO filmy (tytul, kategoria_id, rok_premiery, cena_wypozyczenia, data_do
     ('Władca Pierścieni: Drużyna Pierścienia', 9, 2001, 13.99, '2026-02-15', TRUE),
     ('Pulp Fiction', 8, 1994, 10.50, '2026-02-20', TRUE);
 
--- 5. Sprawdzenie zawartości obu tabel
 SELECT * FROM kategorie;
 SELECT * FROM filmy;
